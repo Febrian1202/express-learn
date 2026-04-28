@@ -1,0 +1,34 @@
+{
+  "version": "7",
+  "dialect": "mysql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1777308927283,
+      "tag": "0000_crazy_wrecking_crew",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1777309387114,
+      "tag": "0001_broken_lethal_legion",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "5",
+      "when": 1777320882694,
+      "tag": "0002_orange_red_skull",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "5",
+      "when": 1777321032149,
+      "tag": "0003_bizarre_star_brand",
+      "breakpoints": true
+    }
+  ]
+}
