@@ -1,5 +1,5 @@
 import { Router } from "express";
-import { getAllCommissions, createCommission } from "../controllers/commissionController";
+import { getAllCommissions, createCommission, getMonthlyStats } from "../controllers/commissionController";
 import { validateData } from "../middlewares/validateRequest";
 import { createCommissionSchema } from "../middlewares/validationSchema";
 
@@ -12,5 +12,8 @@ router.get('/', getAllCommissions);
 router.post('/',
   validateData(createCommissionSchema),
   createCommission);
+
+router.get('/stats',
+  getMonthlyStats);
 
 export default router;
